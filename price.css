@@ -1,0 +1,175 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: hsl(204, 43%, 93%);
+}
+.wrapper{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Karla;
+    height: 710px;
+}
+.main1{
+    height: 250px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.main1 h1{
+    color: hsl(179, 62%, 43%);
+    font-size: 22px;
+    padding-top: 20px;
+}
+.main1 h5{
+    color: hsl(71, 73%, 54%);
+    font-size: 16px;
+    padding-top: 15px;
+}
+.main1 p{
+    color: hsl(218, 22%, 67%);
+    padding-top: 15px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 23px;
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+}
+.sub1{
+    height: 210px;
+    background-color: hsl(179, 62%, 43%);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;   
+}
+.sub1 h2{
+    padding-top: 20px;
+    font-size: 20px;    
+}
+.sub1 h1{
+    padding-top: 15px;
+    font-size: 30px;   
+}
+.sub1 h1 span{
+    font-size: 15px;
+    color: hsl(200, 13%, 87%);
+    margin-left: 10px;
+}
+.sub1 p{
+    padding-top: 12px;
+    font-size: 13px;
+    text-align: left;
+    word-spacing: 1px;
+}
+.sub1 button{
+    width: 100%;
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    outline: none;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.sub2{
+    color: white;
+    height: 250px;
+    background-color: hsl(179, 46%, 53%);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;  
+}
+.sub2 h3{
+    padding-top: 20px;
+}
+.sub2 p{
+    line-height: 23px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+
+
+
+@media only screen and (min-width:665px){
+    .wrapper{
+        height: 500px;
+    }
+    .main1{
+        height: 200px;
+        background-color: white;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    .main1 h1{
+        color: hsl(179, 62%, 43%);
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .main1 h5{
+        color: hsl(71, 73%, 54%);
+        font-size: 18px;
+        padding-top: 15px;
+    }
+    .main1 p{
+        color: hsl(218, 22%, 67%);
+        padding-top: 15px;
+        font-size: 13.2px;
+        text-align: left;
+        line-height: 25px;
+    }
+    .main2{
+        display: flex;
+        flex-direction: row;
+    }
+    .sub1{
+        height: 280px;
+        width: 50%;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-bottom-left-radius: 8px;  
+    }
+    .sub1 h2{
+        padding-top: 25px;
+        font-size: 20px;    
+    }
+    .sub1 p{
+        padding-top: 15px;
+        font-size: 13px;
+        text-align: left;
+        word-spacing: 1px;
+    }
+    .sub1 button{
+        margin-top: 40px;
+        color: white;
+    }
+    .sub2{
+        width: 50%;
+        color: white;
+        height: 280px;
+        background-color: hsl(179, 46%, 53%);
+        padding-left: 40px;
+        padding-right: 40px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 8px;  
+    }
+    .sub2 h3{
+        padding-top: 20px;
+    }
+    .sub2 p{
+        line-height: 23px;
+        padding-top: 15px;
+        font-size: 15px;
+    }
+}
